@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 2560px;
+    color: #00ff2b;
+    font-family: "Zilla Slab", serif;
+
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    
+    max-width: 960px;
+    margin: 360px auto;
+    border: 2px solid 	#009a22;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px -5px #009a22 inset;
+    box-shadow: 0px 0px 25px -5px #009a22;
+    
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+form{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.input_ {
+  display: flex;
+  text-align: center;
+  justify-content:space-around;
+  align-items: center;
+  padding-inline: 150px;
+  padding-block: 10px;
+}
+label{
+    font-size: 30px;
+}
+input{
+    background-color: inherit;
+    border: 2px solid 	#009a22;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px -5px #009a22 inset;
+    box-shadow: 0px 0px 25px -5px #009a22;
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    font-size: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+}
+button{
+
+    width: 300px;
+    font-size: 30px;
+    background-color: inherit;
+    border: 2px solid 	#009a22;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px -5px #009a22 inset;
+    box-shadow: 0px 0px 25px -5px #009a22;
+}
